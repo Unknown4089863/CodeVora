@@ -1,4 +1,4 @@
-# <a href="https://codevora.netlify.com">CodeVora</a>
+# <a href="https://codevora.netlify.app">CodeVora</a>
 CodeVora is a platform that provides web development services, specializing in custom website design, WordPress customization, frontend and full-stack development, and secure hosting solutions. The goal is to help businesses build responsive, modern websites tailored to their needs, along with offering ongoing support and maintenance.
 
 The platform is designed for businesses and individuals looking for professional, user-friendly digital solutions to enhance their online presence.
@@ -163,3 +163,7 @@ The platform is designed for businesses and individuals looking for professional
    - `flex-wrap`: Allows flex items to wrap onto multiple lines.
 </p>
 </details>
+
+<br>
+
+<footer>&copy All Right Reserved | <a style="color:red;" href="https://github.com/Unknown4089863" align="center">Made by Amit</a> for College Assignment</footer>
