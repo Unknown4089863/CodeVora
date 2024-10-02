@@ -1,0 +1,160 @@
+body{
+    background-color: black;
+    color: white;
+}
+.size1 {
+    font-size: xx-large;
+}
+
+
+
+#contact{
+    text-align: center;
+    padding: 6vw;
+    padding-bottom: 1vw;
+}
+
+form{
+    display: flex;
+    width: 100%;
+    justify-content: center;
+    padding-top: 1vw;
+    flex-direction: column;
+}
+
+form #heading{
+    text-align: center;
+    color: rgb(255, 0, 0);
+    padding: 1vw;
+    font-size: 25px;
+}
+form>div{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+}
+
+#name,#email{
+    width:25% ;
+    height: 2.5rem;
+    margin: 3px;
+    outline: none;
+}
+form select{
+    width: calc(50% + 6px);
+    align-self: center;
+    height: 2.5rem;
+    margin: 3px;
+    outline: none;
+}
+
+form textarea{
+    width: calc(50% + 6px);
+    align-self: center;
+    margin: 3px;
+    outline: none;
+}
+
+form #submit{
+    text-align: center;
+    width: calc(50vw + 6px);
+    align-self: center;
+    padding: .7rem;
+    margin: 3px;
+    color: white;
+    background-color:  red;
+    border: 0;
+}
+
+.endfooter{
+    position: fixed;
+    width: 100%;
+    bottom: 0px;
+}
+
+@media(min-width:1000px) {
+    .endheader {
+        position: absolute;
+        right: 5%;
+    }
+
+    .margin5 {
+        margin-left: 3rem;
+    }
+    
+}
+
+@media(max-width:1000px) {
+  
+    #contact{
+        padding: 10vw;
+        padding-bottom: 2vw;
+    }
+
+    form #submit{
+        width: calc(60vw + 6px);
+    }
+    
+#name,#email{
+    width:30% ;
+}
+form select{
+    width: calc(60% + 6px);
+}
+
+form textarea{
+    width: calc(60% + 6px);
+}
+
+}
+
+
+
+@media(max-width:700px) {
+    #contact{
+        padding: 12vw;
+        padding-bottom: 2vw;
+    }
+
+    form #submit{
+        width: calc(70vw + 6px);
+    }
+    
+#name,#email{
+    width:35% ;
+}
+form select{
+    width: calc(70% + 6px);
+}
+
+form textarea{
+    width: calc(70% + 6px);
+}
+}
+
+
+@media(max-width:550px) {
+    #contact{
+        padding: 15vw;
+        padding-bottom: 2vw;
+    }
+
+    form #submit{
+        width: calc(70vw + 6px);
+    }
+    form>div{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+#name,#email{
+    width: calc(70% + 6px);
+}
+form select{
+    width: calc(70% + 6px);
+}
+
+form textarea{
+    width: calc(70% + 6px);
+}
+}
